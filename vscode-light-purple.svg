@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="vscode-light-purple-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBFBFB"/>
+      <stop offset="100%" stop-color="#F9F9F9"/>
+    </linearGradient>
+    <linearGradient id="vscode-light-purple-b" x1="0%" x2="102%" y1="0%" y2="101%">
+      <stop offset="0%" stop-color="#3023AE"/>
+      <stop offset="100%" stop-color="#C86DD7"/>
+    </linearGradient>
+    <path id="vscode-light-purple-c" d="M94,180.393959 L127.06935,163.536375 L209.336035,225.671006 L335.811551,99 L417.809436,131.72021 L417.809436,389.090777 L336.07686,421.273438 L208.791454,293.405051 L125.149352,357.330517 L94,342.874323 L94,180.393959 Z M126.302717,211.831601 L126.302717,309.977473 L173.874734,260.036073 L126.302717,211.831601 Z M336.599547,194.601445 L251.246079,260.801414 L336.599547,326.394091 L336.599547,194.601445 Z"/>
+    <filter id="vscode-light-purple-d" width="101.5%" height="101.6%" x="-.8%" y="-.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+      <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="256" cy="260" r="250.5" fill="url(#vscode-light-purple-a)"/>
+    <use fill="url(#vscode-light-purple-b)" xlink:href="#vscode-light-purple-c"/>
+    <use fill="#000" filter="url(#vscode-light-purple-d)" xlink:href="#vscode-light-purple-c"/>
+  </g>
+</svg>
